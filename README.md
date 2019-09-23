@@ -1,208 +1,129 @@
-# Aplicación financiera
+# __**BANQUI**__
 
-## Preámbulo
+El banco más importante del país, siguiendo las tendencias de otros países, está planeando lanzar un banco 100% digital bajo otro nombe: "Banqui". Su principal objetivo es tener un banco que sea más cercano a las necesidades del público más joven del país. Para ello han venido piloteando un app con un número pequeño de usuarios. Los resultados de este piloto son mixtos, hay algunas cosas que han sido bien recibidas por los usuarios, y hay otras que se tienen que mejorar aún.
+Para poder ayudarlos a entender mejor las necesidades de sus clientes y crear el mejor banco digital del país han decidido buscar el apoyo de una consultora de UX de Laboratoria, para lo que nos enviaron los siguientes recursos en Google Drive.
 
-El banco más importante del país, siguiendo las tendencias de otros países, está
-planeando lanzar un banco 100% digital bajo otro nombe: "Banqui". Su principal
-objetivo es tener un banco que sea más cercano a las necesidades del público más
-joven del país. Para ello han venido piloteando un app con un número pequeño de
-usuarios. Los resultados de este piloto son mixtos, hay algunas cosas que han
-sido bien recibidas por los usuarios, y hay otras que se tienen que mejorar aún.
+Este era el prototipo inicial:
 
-Para poder ayudarlos a entender mejor las necesidades de sus clientes y crear
-el mejor banco digital del país han decidido contratar a una consultora de UX,
-donde le han asignado este proyecto a ti y otra compañera de Laboratoria.
+![GRAFICO 1](/PRIMERPROTOTIPO.PNG)
 
-## Introducción
 
-### Contexto
+## __OBJETIVOS DEL PROYECTO__
+----------
 
-Durante la primera semana de entendimiento de los requerimientos, el Product
-Manager les comparte las hipótesis y preguntas que tienen dentro del equipo:
+* Analizar la data de uso en general, para ver cuál es la respuesta de los usuarios hacia la aplicación.
+* Testear e Identificar problemas que posee la aplicación actualmente.
+* Rediseñar prototipo navegable actual.
 
-> Los usuarios que anteriormente han sido clientes de algún banco, nos comparan
-  con las aplicaciones de esos bancos, parece que hay cosas que extrañan.
+![PROCESO](/PROCESO.jpg)
 
-> La aplicación que estamos probando es para iOS, sin embargo, para hacer un
-  lanzamiento nacional necesitamos crear un app para Android.
+## __ENTENDIMIENTO DEL PROBLEMA__
+-----
 
-> Nos falta acercarnos un poco más a los usuarios jóvenes, 100% digitales, los
-  que usan Netflix, Uber, Spotify, Instagram, entre otros.
+### __I. INVESTIGACION CONTEXTUAL__
+Con el apuntado cambio de paradigma y ante unos usuarios cada vez más exigentes, el sector bancario tiene la necesidad de innovar y mejorar la experiencia de sus usuarios, así como de generar confianza y seguridad en los mismos.
+Pero, ¿Cómo se comportan los jóvenes peruanos ante el uso de aplicaciones bancarias?
+Los peruanos entre 18 y 35 años son los que más usan la tecnología, sobre todo al momento de realizar pagos por Internet. Las aplicaciones bancarias que más frecuentan, las medidas de seguridad y autenticación más confiables, las expectativas y métodos de pagos de acá a 10 años, entre otros, fueron analizadas en un reciente estudio. Con el fin de entender los comportamientos de los usuarios de cada país, Vocalink, una empresa de Mastercard vinculada al sistema de pagos, realizó el análisis sobre los jóvenes peruanos y su dinero. Este arrojó estadísticas sobre su postura ante diferentes enfoques de la economía.
 
-### Recursos
+SOBRE EL USO DE APPS BANCARIAS
 
-En esta carpeta de [Google Drive](https://drive.google.com/drive/folders/1etdcDyoN7C038ti_i4RhavK2DWEAc1yH?usp=sharing) y en los siguientes
-links, encontrarán:
+![GRAFICO 1](/grafico.PNG)
 
-- Los user personas
-- El user flow del MVP
-- El [diseño del app en Figma](https://www.figma.com/file/im1tb4vPyt9bMVlhzqlHIR/S02E01-App-Financiera?node-id=0%3A1)
-  , con una guía de componentes y el [Prototipo navegable](https://marvelapp.com/1hj56576/screen/60926857).
-- Analytics de los primeros 6 meses del MVP
-- Data de uso del MVP de los primeros 6 meses
+En cuanto a la postura de los jóvenes frente a la tecnología, el 49% indica que le gustaría ser visto usando los últimos modelos de celulares, en donde, en este caso, los hombres (55%) evidencian más interés que las mujeres (46%).
 
-## Objetivos de aprendizaje
+EN CUANTO A SOLUCIONES DE SEGURIDAD Y AUTENTICACIÓN .- Priorizan la seguridad (52%) por encima de la comodidad (28%), por lo que la mayoría de ellos opina que las aplicaciones bancarias y de servicios financieros son una solución que combina adecuadamente ambos puntos. Sin embargo, el 35% de los jóvenes peruanos expresó su preocupación de que los pagos móviles no funcionen porque su teléfono se quede sin batería.
+Para los jóvenes peruanos, el escaneo de huella (65%) es considerado la forma de verificación de pagos más segura. En segundo lugar, está el PIN (15%), seguido de escaneos de retina (9%), autorización por voz (4%), reconocimiento facial (4%) y microchip bajo la piel (3%).
 
-El objetivo principal de este proyecto es que te enfrentes al reto de rediseñar
-un producto ya existente. Es muy probable que termines trabajando en productos
-existentes y que para tener un buen entendimiento del problema, debas analizar
-data de ese producto y complementar esta data con investigación de campo. Para
-luego definir una estrategia de producto de acuerdo a los objetivos del negocio,
-pero sin dejar de lado los objetivos y necesidades de los usuarios. Puedes leer
-sobre el trabajo de un UX Designer en rediseño este [blogpost](https://blog.continuum.cl/preguntas-para-dejar-de-ser-ux-designer-y-empezar-a-ser-un-ux-redesigner-143e5467ec8d).
+PANORAMA DEL FUTURO DE LOS PAGOS.- Finalmente, el estudio revela las proyecciones de los jóvenes peruanos y cómo esperan que la industria evolucione de acá al 2028. Por ejemplo, el 67% espera hacer pagos inmediatos, independientemente del proveedor de servicios financieros del destinatario, y el 30% espera tener una sola tarjeta y poder escoger si la usa como débito o crédito.
+Más de la mitad (52%) de la muestra espera pagar usando solo la huella del pulgar; es decir, sin tarjetas ni teléfonos, y más de una quinta parte (21%) de los jóvenes peruanos espera tener toda su información financiera almacenada en un chip bajo la piel.
+Según la Superintendencia de Banca, Seguros y AFP (SBS) el ahorro es fundamental en el desarrollo de un país, teniendo como consecuencia un sistema financiero sólido y estable. Dentro de los principales motivos por los cuales las personas ahorran, se encuentran: el conseguir sus metas a corto y largo plazo, prevenir gastos repentinos y protegerse en la vejez.
+En el Perú, el 70% de los adultos mayores de 25 años ahorra, pero solo el 49% de los jóvenes entre 18 a 24 años lo hace. ¿A qué se deben están diferencias entre adultos y jóvenes? Pues la falta de ingresos, la poca información sobre cuentas de ahorro, costos y rentabilidad; son algunas de las barreras que enfrentan los jóvenes para mantener una cuenta bancaria. En ese sentido, es importante fomentar una cultura de ahorro en la población, con la finalidad de prolongar y consolidar un hábito que empiece desde la niñez y se mantenga a lo largo de la vida. Podemos concluir entonces que la importancia de generar hábitos de ahorro en jóvenes tendrá como consecuencia el crecimiento del Sistema Financiero, el cual pasa por un proceso importante de transformación digital, con el objetivo principal de introducir nuevos productos digitales, los cuales fortalezcan la relación entre la banca y sus usuarios.
 
-En este proyecto pondrás en práctica habilidades de: análisis de datos,
-investigación de campo, pensamiento crítico, cuestionamiento, síntesis, diseño
-de componentes de la interfaz y user testing.
 
-## Consideraciones generales
+### __II. PROBLEMAS A NIVEL DE NEGOCIO Y USUARIO__
 
-Como ya habrás notado, gran parte del trabajo de UX tiene relación con el
-desempeño de tus habilidades blandas. Estas habilidades nos acompañan a lo largo
-de cualquier proyecto y su desarrollo es clave para el éxito. Estas habilidades
-no sólo son utilizadas a la hora de entender al usuario, sino a lo largo de toda
-la ejecución, es decir desde cómo planificamos hasta nuestra presentación al
-cliente.
+Para conocer el problema de la aplicación BANQUI, nos entregaron la data de uso de los últimos 6 meses junto con  los resultados que generaron el MVP de la aplicación. 
+Se programó entrevistas con el cliente y usuarios, de donde se puede conocer un poco más el estado y las proyecciones que se tienen sobre la aplicación, tanto para el cliente como para el usuario:
 
-Anteriormente, nos habíamos concentrado en el desarrollo de tu curiosidad y
-empatía, practicado cómo relacionarte con el cliente y el usuario. Siempre debes
-pensar quiénes son y qué necesitan, y no enfocarte en lo que tú consideras que
-podría ser la solución correcta. Se trata de entender que nosotros no somos el
-usuario, y debemos hacer el ejercicio empático de comprenderlo a él y a nuestro
-cliente.
+__A)__ __Problemas a nivel cliente__
+* La aplicación solo está segmentada para un público objetivo que tienen dispositivos iOS.
+* No está claro que es una app de ahorro perteneciente al banco.
+* Quieren ser como un asistente para aprender ahorrar.
+* Quieren crear metas para ahorrar (ahorro con objetivos) dirigido principalmente a jóvenes usuarios pero no encuentran la forma de llegar a ellos.
+ 
+__B)__ __Problemas a nivel usuario__
+* La aplicación no presenta las funcionalidades que el usuario busca.
+* Algunos usuarios no planifican sus ahorros, por eso, esperan ser incentivado o motivado mediante sugerencias o tips de ahorro.
+* Algunos usuarios preferirian realizar todas sus operaciones por la aplicación.
+* El flujo de la app es confuso para los usuarios, ya que se perdían al momento de elegir las opciones del menú.
 
-Este proyecto, a diferencia de otros, no debes partir desde cero generando un
-prototipo, sino investigar lo que el banco ya ha construido y en base a eso
-hacer una propuesta. Para esto, te aconsejamos comenzar por investigar
-la información que tienes; entender qué datos ya manejas y qué elementos
-necesitas averiguar para completar tu proyecto. De esta manera, tu planificación
-es muy relevante para comprender la problemática.
+__C)__ __Insights__
 
-Al planificar podrás comprender de qué manera estructurar tu proyecto y qué
-elementos debes investigar. Además, te permitirá trabajar de mejor manera con tu
-compañera, te aconsejamos que consideres tiempo para poder iterar sobre las
-posibilidades de mejora y también para preparar la presentación.
+![INSIGHTS](/INSIGHTS.PNG)
 
-La calidad del proyecto depende totalmente de tu proactividad y autoaprendizaje,
-si no conoces plataformas financieras parte por investigar sobre ellas. No
-esperes que los contenidos lleguen a ti, más bien busca todo lo que necesites
-para poder encontrar la mejor solución.
 
-Parte importante de tu trabajo como UX designer es tomar decisiones.
-Efectivamente existen múltiples herramientas que puedes utilizar, debes
-comprender para qué y con qué finalidad escoges usar cada una de ellas. Siempre
-piensa que debes justificar todo gasto con tu consultora y el cliente, cada
-decisión que tomes en el proyecto debe ser fundamentada, no sigas pasos
-mecánicos por seguirlos, cuestiónate constantemente.
+### __III. ANÁLISIS DE LA DATA__
+Los datos recopilan información de los últimos 6 meses de actividad de la aplicación "BANQUI". Algunas conclusiones importantes:
 
-Por último, considera que la calidad de tu presentación es tan importante como
-el proceso completo. Un proyecto que no se aprecia al ser presentado no es un
-buen proyecto. Si vas a utilizar una slides frente a un cliente, se prolija en
-el diseño de ellos y en la información que entregas, también busca la mejor
-manera de mostrar tu demo y por sobre todo prueba antes de presentar frente al
-cliente.
+* __App Units__: El número de descargas de aplicaciones por primera vez realizadas en la App Store
 
-## Entrega
+![GRAFICO 1](/USO.PNG)
+Según la información revisada se puede calcular que el número de descargas promedio por día es de 16, siendo el mes de abril donde se inicia este  incremento durante los 6 meses de uso de la aplicación.
 
-El proyecto será entregado en un repositorio de GitHub. En él deberás agregar
-lo siguiente:
+* __Sessions__: El número de veces que la aplicación se ha utilizado durante al menos dos segundos.
 
-README.md  detallando:
+![GRAFICO 2](/SESIONES.png)
+Al analizar el número de veces de  uso de  la aplicación, se observó que el uso desde Febrero a Julio, tiene picos altos en los periodos de quincena y fin de mes, comprobandose que los usuarios usan la aplicación para interactuar con su cuenta(pagar montos, revisar movimientos, etc)
 
-* Objetivos iniciales del proyecto
-* Problemas encontrados tanto a nivel de negocio como a nivel de usuario
-* Recomendaciones de próximos pasos para el banco con respecto al app
-* De acuerdo al punto anterior, de requerirse cambios y desarrollos nuevos,
-  estos deberán ser diseñados y entregados en un prototipo de alta definición.
 
-Un video en Loom de máximo 5 minutos explicando tu documento.
-* Estos 5 minutos tienes que utilizarlos para explicar los puntos indicados en
-  el `README.md` y para hacer un demo de la solución propuesta.
+## __RECOMENDACIONES__
+------------
 
-En las otras carpetas del repositorio o en las carpetas de Google Drive podrás
-agregar los documentos complementarios que sustenten tu proceso.
+Como parte del proceso, se juntaron todos los hallazgos y a partir de eso se comenzó a pensar e idear las formas de dar solución a cada uno de ellos. 
 
-### Hacker edition
+A partir del análisis se recomienda los siguientes desarrollos:
 
-Para el hacker edition puedes elegir una o varias de estas opciones:
+* Incorporar un Onboarding al descargar la app que muestre información básica para guiar al usuario.
+* Eliminar pantallas innecesarias para realizar el registro en la app.
+* Diseñar un menú visible (gadgets) con opciones de "pago de servicio", "ahorros", "transferencias".
+* Implementar la opción de transferir con número de celular.
+* Implementar otra opción para enviar dinero con el número de DNI.
+* Crear una opción que se considere como una alcancia virtual para que el usuario abone segun considere necesario.
+* Motivar el cumplmiento de su meta de ahorro con anuncios de beneficios y premios por lograrlo.
 
-- Antes de empezar a desarrollar este proyecto, lista cuáles fueron tus
-  aprendizajes durante el proyecto 1 y en qué cosas te gustaría mejorar durante 
-  el proyecto 2. Al terminar el proyecto 2 vuelve a esta lista y chequea cómo te 
-  fue con esos retos, ¿los cumpliste? Muestrános esta lista y esta reflexión
-  en un documento adicional (en el formato que prefieras).
-- En lugar de usar Github para documentar tu proceso de trabajo, documéntalo en
-  su propia web, puedes usar Wix, Instapage, Squarespace, Google Sites o crear
-  tu propia web desde 0. 
-- Escribe un post en Medium contando tu proceso de investigación.
+## PROTOTIPO
+------
 
-## Otras consideraciones
+A partir de la priorización se trabajó en el diseño de una propuesta en Figma que contemplará todas estas modificaciones, en un prototipo de alta fidelidad.
 
-### 1) Planeamiento y presupuesto
+Prototipo de Alta fidelidad
 
-En el reto con emprendimientos te entregamos una lista de tareas que podías
-realizar y le asignamos un valor en puntos a cada tarea. Además, te dimos un
-presupuesto de 300 puntos para que los utilices en esas tareas. Para este reto,
-la lista de tareas, el valor en puntos de cada tarea y el presupuesto total
-de las actividades a realizar lo crearás tú y lo tendrás que sustentar con tu
-coach. Adicinalmente, deberás sustentar con tu coach qué entregables harás
-llegar al banco al final de tu investigación y por qué. El coach te aprobará
-estos entregables o te dará feedback para mejorarlos.
+[Link a FIGMA](https://www.figma.com/file/HNa8EMC6mZ6NfRo47p4VTy/App-Financiera---Banqui "titulo")
 
-Cuando hagas tu presupuesto y pienses en los entregables recuerda que el tiempo
-de desarrollo de este proyecto es de dos semanas. También, recuerda qué partes
-te tomaron más tiempo en el desarrollo del proyecto 1 y los aprendizajes que
-tuviste al desarrollar el proyecto 1.
+[Link a Prototipo Navegable en Marvel](https://marvelapp.com/6811981/screen/61632550"titulo")
 
-### 2) Prototipo de alta fidelidad
+Conclusiones 
 
-Existen varias herramientas que puedes utilizar para crear diseñar el producto,
-en este caso el diseño viene en Figma y el prototipo en Marvel, así que puedes
-seguir usando esas herramientas. Sin embargo, eres libre de utilizar otras
-como Adobe XD e Invision. Para el prototipo intenta utilizar Marvel o Invision,
-ya que para el testing tendrás que usar una herramienta llamada
-[Maze](https://maze.design/) que funciona mejor con estas.
+Las nuevas funcionalidades responden a los problem statements priorizados del proyecto: 
 
-Recuerda que el diseño que trabajes debe seguir los fundamentos de diseño visual
-como: contraste, alineación, jerarquía, entre otros.
 
-## Evaluación
 
-Recuerda revisar la rúbrica para ver la descripción detallada de cada habilidad
-y cada nivel. A continuación presentamos los niveles esperados de cada habilidad
-que deberías alcanzar al finalizar este proyecto:
 
-### Habilidades Blandas
 
-| Habilidad                    | Nivel esperado |
-|------------------------------|----------------|
-| **Autogestión**                               |
-| Planificación y organización | 4              |
-| Autoaprendizaje              | 4              |
-| Presentaciones               | 4              |
-| Adaptabilidad                | 4              |
-| Solución de problemas        | 4              |
-| **Relaciones interpersonales**                |
-| Trabajo en equipo            | 4              |
-| Responsabilidad              | 4              |
-| Dar y recibir feedback       | 4              |
-| Comunicación eficaz          | 4              |
 
-### UX
+## VIDEO
+El demo de la aplicación realizado en Loom.
 
-| Habilidad                      | Nivel esperado |
-|--------------------------------|----------------|
-| **Research**                                    |
-| User centricity                | 4              |
-| Entrevistas                    | 3              |
-| Testing                        | 3              |
-| Planeamiento y ejecución       | 3              |
-| Síntesis de resultados         | 3              |
-| **Interaction design**                          |
-| Diseño de interacción          | 3              |
-| Arquitectura de la información | 3              |
-| Prototyping                    | 3              |
-| **Visual design**                               |
-| Visual Design                  | 3              |
-| **Business mindset**                            |
-| Business mindset               | 3              |
+[Link a VIDEO LOOM ](https:/ "titulo")
+
+## GOOGLE DRIVE 
+Toda la documentación de este proyecto se encuentra en Google Drive
+
+[Link a DRIVE](https://drive.google.com/drive/folders/1TuloHfONGVA0vBNgffkVh2-lh1RGBCc9 "titulo")
+
+
+
+
+
+
+
