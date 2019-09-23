@@ -10,7 +10,7 @@ Este era el prototipo inicial:
 
 
 ## __OBJETIVOS DEL PROYECTO__
-----------
+
 
 * Analizar la data de uso en general, para ver cuál es la respuesta de los usuarios hacia la aplicación.
 * Testear e Identificar problemas que posee la aplicación actualmente.
@@ -19,7 +19,7 @@ Este era el prototipo inicial:
  ![PROCESO](imagenes/PROCESO.jpg)
 
 ## __ENTENDIMIENTO DEL PROBLEMA__
------
+
 
 ### __I. INVESTIGACION CONTEXTUAL__
 Con el apuntado cambio de paradigma y ante unos usuarios cada vez más exigentes, el sector bancario tiene la necesidad de innovar y mejorar la experiencia de sus usuarios, así como de generar confianza y seguridad en los mismos.
@@ -68,19 +68,14 @@ Los datos recopilan información de los últimos 6 meses de actividad de la apli
 
 * __App Units__: El número de descargas de aplicaciones por primera vez realizadas en la App Store
 
-![GRAFICO 1](imagenes/USO.png)
-
-Según la información revisada se puede calcular que el número de descargas promedio por día es de 16, siendo el mes de abril donde se inicia este  incremento durante los 6 meses de uso de la aplicación.
+![GRAFICO 1](imagenes/USO.png) Según la información revisada se puede calcular que el número de descargas promedio por día es de 16, siendo el mes de abril donde se inicia este  incremento durante los 6 meses de uso de la aplicación.
 
 * __Sessions__: El número de veces que la aplicación se ha utilizado durante al menos dos segundos.
 
-![GRAFICO 2](imagenes/SESIONES.png)
-
-Al analizar el número de veces de  uso de  la aplicación, se observó que el uso desde Febrero a Julio, tiene picos altos en los periodos de quincena y fin de mes, comprobandose que los usuarios usan la aplicación para interactuar con su cuenta(pagar montos, revisar movimientos, etc)
+![GRAFICO 2](imagenes/SESIONES.png) Al analizar el número de veces de  uso de  la aplicación, se observó que el uso desde Febrero a Julio, tiene picos altos en los periodos de quincena y fin de mes, comprobandose que los usuarios usan la aplicación para interactuar con su cuenta(pagar montos, revisar movimientos, etc)
 
 
 ## __RECOMENDACIONES__
-------------
 
 Como parte del proceso, se juntaron todos los hallazgos y a partir de eso se comenzó a pensar e idear las formas de dar solución a cada uno de ellos. 
 
@@ -95,15 +90,39 @@ A partir del análisis se recomienda los siguientes desarrollos:
 * Motivar el cumplmiento de su meta de ahorro con anuncios de beneficios y premios por lograrlo.
 
 ## PROTOTIPO
-------
 
 A partir de la priorización se trabajó en el diseño de una propuesta en Figma que contemplará todas estas modificaciones, en un prototipo de alta fidelidad.
 
-__Prototipo de Alta fidelidad__
+__PRIMER PROTOTIPO DE ALTA__
+
+![PRIMER PROTOTIPO DE ALTA](imagenes/IPROTOTIPO.png)
+
+__Testing del primer prototipo de alta fidelidad__
+
+Se realizó un testing online del primer Prototipo de Alta Fidelidad a posibles usuarios de BANQUI, dándoles las siguientes tareas:
+
++ Registro en la aplicacion
++ Visualiza tus movimientos
++ Programa un ahorro
++ Pago de servicio de telefonía
++ Transferencia a cuenta
++ Envia dinero
++ Abona a tu alcancia del ahorro.
+
+De donde se tienen las siguientes conclusiones, las cuales se tendrán en cuenta para poder realizar las mejoras.
+
++ Se identifica un problema durante el registro al momento de insertar la clave, indican que sea más específica.
++ Arreglar los íconos del gadget.
++ Alinear los formularios.
++ Quitar botones que no contrastan con el diseño.
+
+
+## Diseño Final
 
 [Link a FIGMA](https://www.figma.com/file/HNa8EMC6mZ6NfRo47p4VTy/App-Financiera---Banqui "titulo")
 
-[Link a Prototipo Navegable en Marvel](https://marvelapp.com/6811981/screen/61632550"titulo")
+
+
 
 
 ## VIDEO
