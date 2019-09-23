@@ -1,4 +1,4 @@
-# __**BANQUI**__
+# __**REDISEÑO DE LA APLICACION FINANCIERA "BANQUI"**__
 
 El banco más importante del país, siguiendo las tendencias de otros países, está planeando lanzar un banco 100% digital bajo otro nombe: "Banqui". Su principal objetivo es tener un banco que sea más cercano a las necesidades del público más joven del país. Para ello han venido piloteando un app con un número pequeño de usuarios. Los resultados de este piloto son mixtos, hay algunas cosas que han sido bien recibidas por los usuarios, y hay otras que se tienen que mejorar aún.
 Para poder ayudarlos a entender mejor las necesidades de sus clientes y crear el mejor banco digital del país han decidido buscar el apoyo de una consultora de UX de Laboratoria, para lo que nos enviaron los siguientes recursos en [DRIVE](https://drive.google.com/drive/folders/1etdcDyoN7C038ti_i4RhavK2DWEAc1yH)
@@ -119,21 +119,19 @@ De donde se tienen las siguientes conclusiones, las cuales se tendrán en cuenta
 
 ## Diseño Final
 
-[Link a FIGMA](https://www.figma.com/file/HNa8EMC6mZ6NfRo47p4VTy/App-Financiera---Banqui "titulo")
+[Link a FIGMA](https://www.figma.com/file/HNa8EMC6mZ6NfRo47p4VTy/App-Financiera---Banqui)
 
-
-
-
+[Link a PROTOTIPO MARVEL ](https://marvelapp.com/6811981 )
 
 ## VIDEO
 El demo de la aplicación realizado en Loom.
 
-[Link a VIDEO LOOM ](https:/ "titulo")
+[Link a VIDEO LOOM ](https:/ )
 
 ## GOOGLE DRIVE 
 Toda la documentación de este proyecto se encuentra en este link:
 
-[Link a DRIVE](https://drive.google.com/drive/folders/1TuloHfONGVA0vBNgffkVh2-lh1RGBCc9 "titulo")
+[Link a DRIVE](https://drive.google.com/drive/folders/1TuloHfONGVA0vBNgffkVh2-lh1RGBCc9)
 
 
 
