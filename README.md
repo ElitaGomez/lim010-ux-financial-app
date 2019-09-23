@@ -6,7 +6,7 @@ Para poder ayudarlos a entender mejor las necesidades de sus clientes y crear el
 
 Este era el prototipo inicial:
 
-![PROTOTIPO](imagenes/PRIMERPROTOTIPO.PNG)
+ ![PROTOTIPO](imagenes/PRIMERPROTOTIPO.png)
 
 
 ## __OBJETIVOS DEL PROYECTO__
@@ -16,7 +16,7 @@ Este era el prototipo inicial:
 * Testear e Identificar problemas que posee la aplicación actualmente.
 * Rediseñar prototipo navegable actual.
 
-![PROCESO](imagenes/PROCESO.jpg)
+ ![PROCESO](imagenes/PROCESO.jpg)
 
 ## __ENTENDIMIENTO DEL PROBLEMA__
 -----
@@ -60,7 +60,7 @@ __B)__ __Problemas a nivel usuario__
 __C)__ __Insights__
 
 
-![INSIGHTS](imagenes/INSIGHTS.PNG)
+![INSIGHTS](imagenes/INSIGHTS.png)
 
 
 ### __III. ANÁLISIS DE LA DATA__
@@ -68,7 +68,7 @@ Los datos recopilan información de los últimos 6 meses de actividad de la apli
 
 * __App Units__: El número de descargas de aplicaciones por primera vez realizadas en la App Store
 
-![GRAFICO 1](imagenes/USO.PNG)
+![GRAFICO 1](imagenes/USO.png)
 
 Según la información revisada se puede calcular que el número de descargas promedio por día es de 16, siendo el mes de abril donde se inicia este  incremento durante los 6 meses de uso de la aplicación.
 
@@ -99,19 +99,11 @@ A partir del análisis se recomienda los siguientes desarrollos:
 
 A partir de la priorización se trabajó en el diseño de una propuesta en Figma que contemplará todas estas modificaciones, en un prototipo de alta fidelidad.
 
-Prototipo de Alta fidelidad
+__Prototipo de Alta fidelidad__
 
 [Link a FIGMA](https://www.figma.com/file/HNa8EMC6mZ6NfRo47p4VTy/App-Financiera---Banqui "titulo")
 
 [Link a Prototipo Navegable en Marvel](https://marvelapp.com/6811981/screen/61632550"titulo")
-
-Conclusiones 
-
-Las nuevas funcionalidades responden a los problem statements priorizados del proyecto: 
-
-
-
-
 
 
 ## VIDEO
