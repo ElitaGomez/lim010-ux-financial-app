@@ -117,7 +117,10 @@ De donde se tienen las siguientes conclusiones, las cuales se tendrán en cuenta
 + Quitar botones que no contrastan con el diseño.
 
 
+
 ## Diseño Final
+
+![PRIMER PROTOTIPO DE ALTA](imagenes/PROTOTIPOFINAL.png)
 
 [Link a FIGMA](https://www.figma.com/file/HNa8EMC6mZ6NfRo47p4VTy/App-Financiera---Banqui)
 
@@ -126,7 +129,7 @@ De donde se tienen las siguientes conclusiones, las cuales se tendrán en cuenta
 ## VIDEO
 El demo de la aplicación realizado en Loom.
 
-[Link a VIDEO LOOM ](https:/ )
+[Link a VIDEO LOOM ](https://www.loom.com/share/89c86e3b77f24a448e89de2d6584bd7c)
 
 ## GOOGLE DRIVE 
 Toda la documentación de este proyecto se encuentra en este link:
